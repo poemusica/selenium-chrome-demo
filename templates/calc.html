@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>UberCalc</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- custom css -->
+    <link href="/static/calc.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   <!-- popper.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <!-- bootstrap.js -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="page-header">
+        <h1>UberCalc</h1>
+
+        <p class="lead">Pushing math to infinity.</p>
+    </div>
+
+    <form id="calc-form">
+
+        <input type="text" size="2" name="x" id="x-field">
+        &plus;
+        <input type="text" size="2" name="y" id="y-field">
+        =
+        <span id="result">&nbsp;</span>
+        <input type="submit" id="calc-button"
+               class="btn btn-primary input-sm">
+
+    </form>
+    <footer>Copyright &copy; 2015 by Ubermelon Math Division.</footer>
+</div>
+
+<script src="/static/calc.js"></script>
+
+</body>
+</html>

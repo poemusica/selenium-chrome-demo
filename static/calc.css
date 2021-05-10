@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana;
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    width: 80%;
+    margin: 2em auto 0 auto;
+}
+
+form {
+    font-size: 125%;
+}
+
+input[type=text] {
+    font-size: 100%;
+    padding: 0.25em;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    font-size: 100%;
+    padding: 0.25em 1em;
+    border-radius: 20px;
+}
+
+#result {
+  display: inline-block;
+  padding: 0.30em 0;
+  border: solid 1px red;
+  margin-right: 1em;
+  width: 2em;
+  text-align: center;
+}
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  color: #666;
+  border-top: solid 1px #666;
+  padding-top: 1em;
+}
